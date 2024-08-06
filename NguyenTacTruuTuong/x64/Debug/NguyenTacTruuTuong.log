@@ -1,0 +1,4 @@
+﻿  NguyenTacTruuTuong.cpp
+E:\Study\OOP C++\HocLapTrinhOOP\NguyenTacTruuTuong\NguyenTacTruuTuong.cpp(13,12): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\Study\OOP C++\HocLapTrinhOOP\NguyenTacTruuTuong\NguyenTacTruuTuong.cpp(75,49): warning C4305: 'argument': truncation from 'double' to 'float'
+  NguyenTacTruuTuong.vcxproj -> E:\Study\OOP C++\HocLapTrinhOOP\x64\Debug\NguyenTacTruuTuong.exe
