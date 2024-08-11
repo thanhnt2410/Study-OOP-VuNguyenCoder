@@ -1,83 +1,122 @@
-﻿// Tính trừu tượng hoá:
-// Mọi thứ phức tạp hãy tạo cho nó một cái hàm đặt tên có ý nghĩa bên trong Class để nó có thể hoàn thành các công việc
+﻿
+// -----------------------------Tính kế thừa--------------------------------
+
+//Overriding: định nghĩa lại các hàm trong lớp cha
+//thêm thuộc tính dẫn xuất
+//Access modifier trong inheritance
+//hàm trong private lớp cha thì lớp con không gọi được mặc dù lớp con kế thừa lớp cha
+//protected: Đảm bảo con cháu gọi được hàm trong private của lớp cha nhưng không thể gọi đươc từ bên ngoài
+//Constructor trong quan he ke thua
+//Khi định nghĩa tham số cho hàm khởi tạo, hàm khởi tạo sẽ biến mất
+//Destructor: delete thang con truoc roi moi den thang cha
+//Multiple inhertance: Đa kế th
 #include<iostream>
 #include<string>
 
-class Woman
+class Vehicle
 {
 public:
-	//Hàm khởi tạo, tự động khởi tạo khi gọi 1 class
-	Woman(std::string fn, int a, int w, float h)
+	Vehicle()
 	{
-		fullname = fn;
-		age = a;
-		weight = w;
-		height = h;
+		std::cout << "Created a vehicle\n";
 	}
-	void introduce()
+	/*~Vehicle()
 	{
-		std::cout << "Hi! My name is " << fullname << ".\n";
-		std::cout << "Now I am " << age << " years old. \n";
+		std::cout << "Delete a vehicle\n";
+	}*/
+	/*Vehicle(std::string name)
+	{
+		modelName = name;
+		std::cout << "Created a vehicle with name " << modelName << ".\n";
+		
+	}*/
+	std::string getModelName()
+	{
+		return modelName;
 	}
-	void setAge(int a)
+	void setModelName(std::string name)
 	{
-		age = a;
+		modelName = name;
 	}
-
-	int getAge()
+	int getVersion()
 	{
-		return age;
+		return version;
 	}
-	float getWeight()
+	void setVersion(int v)
 	{
-		return weight;
+		version = v;
 	}
-	float getHeight()
+	
+protected:
+	void run()
 	{
-		return height;
+		std::cout << "Vehicle is running\n";
 	}
 private:
-	float weight;
-	std::string fullname;
-	int age;
-	float height;
+	std::string modelName;
+	int version;
 };
-
-class HealthChecker
+class Car : public Vehicle
 {
 public:
-	void check(Woman* woman)
+	Car()
 	{
-		weight = woman->getWeight();
-		height = woman->getHeight();
-		//......caculate.......
-		bloodPressure = 130; //getDevice()
-		heartBeat = 80; //getDevice()
-	}
-	std::string getResult()
-	{
-		float bmi = weight / (height * height);
-		if (bmi >= 18.5 && bmi <= 24.9 && bloodPressure >= 120 && bloodPressure <= 140 && heartBeat >= 60 && heartBeat <= 100)
-		{
-			return "Nomal";
-		}
-		return "Abnormal";
+		std::cout << "Create a Car\n";
 	}
 
-private:
-	float weight;
-	float height;
-	int bloodPressure;
-	int heartBeat;
 };
+
+class Taxi : public Car			//neu khai bao taxi: private Vehicle thi se thanh private
+{
+public:
+	Taxi()
+	{
+		std::cout << "Created a Taxi\n";
+	}
+	//Taxi(std::string name) : Vehicle(name)
+	/*~Taxi()
+	{
+		std::cout << "Delete a taxi\n";
+	}*/
+	//void run()
+	//{
+	//	Vehicle::run(); // vừa kế thừa vừa bổ sung
+	//	std::cout << "This is a Taxi\n";
+	//}
+	//void run(int km)
+	/*{
+		kmCounter = km;
+	}*/
+	int caculateFee()
+	{
+		return kmCounter * 9000;
+	}
+	void start()
+	{
+		std::cout << "Start. Ready to run\n";
+		std::cout << getModelName() << " is running\n";
+		run();
+	}
+private:
+	int kmCounter;
+};
+class Truck : public Vehicle
+{
+
+};
+
 int main()
 {
-	int x = 10;
-	Woman* hariwon = new Woman("Harriwon", 33, 60, 1.65); //Khai báo cấp phát động
-	HealthChecker* checker = new HealthChecker;
-	checker->check(hariwon);
-	std::string result = checker->getResult();
-	std::cout << result;
-
+	Taxi* taxi = new Taxi;
+	
+	/*Taxi* taxi1 = new Taxi("Kia Morning");
+	Taxi* taxi2 = new Taxi("VF3");*/
+	//taxi->setModelName("Kia Morning");
+	//taxi->getModelName();
+	//std::cout << taxi->getModelName();
+	//taxi->run(5);
+	//std::cout << "Fee: " << taxi->caculateFee() << " VND\n";
+	//taxi->start();
+	//taxi->run();
 	return 0;
 }

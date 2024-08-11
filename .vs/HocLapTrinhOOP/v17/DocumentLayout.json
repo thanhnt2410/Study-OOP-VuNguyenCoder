@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B7643BD-FA4F-4545-AB48-23852197F973}|NguyenTacKeThua\\NguyenTacKeThua.vcxproj|E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\NguyenTacKeThua\\TinhKeThua.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B7643BD-FA4F-4545-AB48-23852197F973}|NguyenTacKeThua\\NguyenTacKeThua.vcxproj|solutionrelative:NguyenTacKeThua\\TinhKeThua.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FBEB79FA-22DC-4B9B-84D2-FDA8F62028FE}|Abstract Class_Interface\\Abstract Class_Interface.vcxproj|E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\Abstract Class_Interface\\AbstractClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBEB79FA-22DC-4B9B-84D2-FDA8F62028FE}|Abstract Class_Interface\\Abstract Class_Interface.vcxproj|solutionrelative:Abstract Class_Interface\\AbstractClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TinhKeThua.cpp",
-              "DocumentMoniker": "E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\NguyenTacKeThua\\TinhKeThua.cpp",
-              "RelativeDocumentMoniker": "NguyenTacKeThua\\TinhKeThua.cpp",
-              "ToolTip": "E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\NguyenTacKeThua\\TinhKeThua.cpp",
-              "RelativeToolTip": "NguyenTacKeThua\\TinhKeThua.cpp",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAqwDkAAAACAAAA",
+              "Title": "AbstractClass.cpp",
+              "DocumentMoniker": "E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\Abstract Class_Interface\\AbstractClass.cpp",
+              "RelativeDocumentMoniker": "Abstract Class_Interface\\AbstractClass.cpp",
+              "ToolTip": "E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\Abstract Class_Interface\\AbstractClass.cpp",
+              "RelativeToolTip": "Abstract Class_Interface\\AbstractClass.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAGIAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-06T06:28:21.184Z",
+              "WhenOpened": "2024-08-08T14:04:40.441Z",
               "EditorCaption": ""
             }
           ]

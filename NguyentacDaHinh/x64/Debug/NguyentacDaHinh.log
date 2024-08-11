@@ -1,0 +1,3 @@
+﻿  NguyenTacDaHinh.cpp
+E:\Study\OOP C++\HocLapTrinhOOP\NguyentacDaHinh\NguyenTacDaHinh.cpp(100,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  NguyentacDaHinh.vcxproj -> E:\Study\OOP C++\HocLapTrinhOOP\x64\Debug\NguyentacDaHinh.exe
