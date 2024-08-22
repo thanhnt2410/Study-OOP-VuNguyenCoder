@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBEB79FA-22DC-4B9B-84D2-FDA8F62028FE}|Abstract Class_Interface\\Abstract Class_Interface.vcxproj|E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\Abstract Class_Interface\\AbstractClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FBEB79FA-22DC-4B9B-84D2-FDA8F62028FE}|Abstract Class_Interface\\Abstract Class_Interface.vcxproj|solutionrelative:Abstract Class_Interface\\AbstractClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6B87BB2E-906A-492A-9268-09AB30592BF6}|Chia Class\\Chia Class.vcxproj|E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\Chia Class\\VehicleApp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6B87BB2E-906A-492A-9268-09AB30592BF6}|Chia Class\\Chia Class.vcxproj|solutionrelative:Chia Class\\VehicleApp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87BB2E-906A-492A-9268-09AB30592BF6}|Chia Class\\Chia Class.vcxproj|E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\Chia Class\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6B87BB2E-906A-492A-9268-09AB30592BF6}|Chia Class\\Chia Class.vcxproj|solutionrelative:Chia Class\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87BB2E-906A-492A-9268-09AB30592BF6}|Chia Class\\Chia Class.vcxproj|E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\Chia Class\\VehicleManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6B87BB2E-906A-492A-9268-09AB30592BF6}|Chia Class\\Chia Class.vcxproj|solutionrelative:Chia Class\\VehicleManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B87BB2E-906A-492A-9268-09AB30592BF6}|Chia Class\\Chia Class.vcxproj|E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\Chia Class\\Vehicle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6B87BB2E-906A-492A-9268-09AB30592BF6}|Chia Class\\Chia Class.vcxproj|solutionrelative:Chia Class\\Vehicle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AbstractClass.cpp",
-              "DocumentMoniker": "E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\Abstract Class_Interface\\AbstractClass.cpp",
-              "RelativeDocumentMoniker": "Abstract Class_Interface\\AbstractClass.cpp",
-              "ToolTip": "E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\Abstract Class_Interface\\AbstractClass.cpp",
-              "RelativeToolTip": "Abstract Class_Interface\\AbstractClass.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAGIAAAAhAAAA",
+              "Title": "VehicleApp.h",
+              "DocumentMoniker": "E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\Chia Class\\VehicleApp.h",
+              "RelativeDocumentMoniker": "Chia Class\\VehicleApp.h",
+              "ToolTip": "E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\Chia Class\\VehicleApp.h",
+              "RelativeToolTip": "Chia Class\\VehicleApp.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-22T18:16:10.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VehicleManager.h",
+              "DocumentMoniker": "E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\Chia Class\\VehicleManager.h",
+              "RelativeDocumentMoniker": "Chia Class\\VehicleManager.h",
+              "ToolTip": "E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\Chia Class\\VehicleManager.h",
+              "RelativeToolTip": "Chia Class\\VehicleManager.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-22T18:06:15.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\Chia Class\\main.cpp",
+              "RelativeDocumentMoniker": "Chia Class\\main.cpp",
+              "ToolTip": "E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\Chia Class\\main.cpp",
+              "RelativeToolTip": "Chia Class\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-08T14:04:40.441Z",
+              "WhenOpened": "2024-08-22T17:51:01.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vehicle.h",
+              "DocumentMoniker": "E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\Chia Class\\Vehicle.h",
+              "RelativeDocumentMoniker": "Chia Class\\Vehicle.h",
+              "ToolTip": "E:\\Study\\OOP C\u002B\u002B\\HocLapTrinhOOP\\Chia Class\\Vehicle.h",
+              "RelativeToolTip": "Chia Class\\Vehicle.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-22T17:54:04.625Z",
               "EditorCaption": ""
             }
           ]
